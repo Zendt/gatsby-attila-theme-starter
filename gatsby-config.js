@@ -104,7 +104,7 @@ if (process.env.GATSBY_TAWK_ID) {
   gatsbyPlugins.unshift({
     resolve: `gatsby-plugin-tawk`,
     options: {
-      tawkId: https://tawk.to/chat/5ef923819e5f6944229178e2/default/,
+      tawkId: process.env.5ef923819e5f6944229178e2,
     }
   });
 }
