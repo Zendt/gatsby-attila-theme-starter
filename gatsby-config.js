@@ -101,7 +101,7 @@ if (process.env.GATSBY_GTAG_MANAGER_ID) {
 }
 
 if (process.env.GATSBY_TAWK_ID) {
-  gatsbyPlugins.unshift({
+  gatsbyPlugins.push({
     resolve: `gatsby-plugin-tawk`,
     options: {
       tawkId: "5ef923819e5f6944229178e2",
