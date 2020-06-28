@@ -104,7 +104,7 @@ if (process.env.GATSBY_TAWK_ID) {
   gatsbyPlugins.unshift({
     resolve: `gatsby-plugin-tawk`,
     options: {
-      tawkId: 5ef923819e5f6944229178e2,
+      tawkId: "5ef923819e5f6944229178e2",
     }
   });
 }
