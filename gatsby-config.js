@@ -105,6 +105,8 @@ if (process.env.GATSBY_TAWK_ID) {
     resolve: `gatsby-plugin-tawk`,
     options: {
       tawkId: "5ef923819e5f6944229178e2",
+      widgetId: "YOUR_WIDGET_ID" // optional, will use 'default' otherwise
+        // get this from the tawk script widget
     }
   });
 }
